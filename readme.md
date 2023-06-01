@@ -1,4 +1,4 @@
-# Título do App
+# Simple Screen Recorder
 
 O App é uma aplicação de gravação de tela que permite aos usuários capturarem e salvarem vídeos da tela do seu computador. Com este aplicativo, você pode gravar facilmente tutoriais, demonstrações de software, gameplays e muito mais.
 
