@@ -1,6 +1,9 @@
-pyautogui
 opencv-python
-numpy
+pyautogui
 keyboard
-tkinter
-pyinstaller
+pyaudio
+pydub
+pyperclip
+numpy
+sounddevice
+Pillow
