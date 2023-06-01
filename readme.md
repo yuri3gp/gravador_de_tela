@@ -39,6 +39,6 @@ Este aplicativo está licenciado sob a [Licença MIT](https://opensource.org/lic
 
 ## Contato
 
-Se você tiver alguma dúvida, sugestão ou problema, entre em contato conosco pelo email app@example.com.
+Se você tiver alguma dúvida, sugestão ou problema, entre em contato conosco pelo email yuri3gp@gmail.com.
 
 Esperamos que você aproveite o App e tenha ótimas gravações de tela!
