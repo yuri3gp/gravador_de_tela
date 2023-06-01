@@ -2,3 +2,4 @@ build
 dist
 .venv
 main.spec
+.vscode
