@@ -3,3 +3,5 @@ dist
 .venv
 main.spec
 .vscode
+__pycache__/
+src/__pycache__
