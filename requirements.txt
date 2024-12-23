@@ -7,4 +7,3 @@ pyperclip
 numpy
 sounddevice
 Pillow
-os
