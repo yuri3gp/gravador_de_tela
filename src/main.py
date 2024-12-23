@@ -4,7 +4,6 @@ import tkinter as tk
 import ctypes
 from recorder import ScreenRecorder
 import os
-
 current_dir = os.path.dirname(os.path.abspath(__file__))
 icon_path = os.path.join(current_dir, "assets", "icon.ico")
 
