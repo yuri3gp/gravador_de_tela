@@ -1,16 +1,18 @@
+import os
+import sys
 import tkinter as tk
 import ctypes
 from recorder import ScreenRecorder
+import os
 
-# Define o caminho para o arquivo de ícone
-# Substitua "icone.ico" pelo nome do seu arquivo de ícone
-icon_path = "assets/icone.ico"
+current_dir = os.path.dirname(os.path.abspath(__file__))
+icon_path = os.path.join(current_dir, "assets", "icon.ico")
 
-# Define o ícone do aplicativo
+if not os.path.exists(icon_path):
+    raise FileNotFoundError(f"Ícone não encontrado: {icon_path}")
+ctypes.windll.kernel32.SetConsoleIcon(ctypes.windll.kernel32.LoadLibraryW(icon_path))
 ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("Screen Recorder")
-ctypes.windll.kernel32.SetConsoleIcon(ctypes.windll.LoadLibraryW(icon_path))
 
-# Iniciar o aplicativo
 if __name__ == "__main__":
     root = tk.Tk()
     root.title("Screen Recorder")
